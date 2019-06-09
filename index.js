@@ -4,10 +4,11 @@ function happyHolidays () {
 return greeting
 }
 
+var name = 'you'
 function happyHolidaysTo (name) {
 return `Happy holidays, ${name}!`
 }
-console.log(`Happy holidays, ${name}!`)
+
 
 function happyHolidaysTo (holiday, name) {
   return `Happy ${holiday}, ${name}!`
