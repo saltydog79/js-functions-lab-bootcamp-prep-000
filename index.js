@@ -5,9 +5,9 @@ return greeting
 }
 
 function happyHolidaysTo (name) {
-  console.log(`Happy holidays, you!`)
 return `Happy holidays, ${name}!`
 }
+console.log(`Happy holidays, ${name}!`)
 
 function happyHolidaysTo (holiday, name) {
   return `Happy ${holiday}, ${name}!`
